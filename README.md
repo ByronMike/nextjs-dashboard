@@ -13,11 +13,10 @@ This is the starter template for the Next.js App Router Course. It contains the 
 
 1. Clone the repository:
 
-   ```
-   bash
-   git clone https://github.com/ByronMike/nextjs-dashboard.git
-   cd nextjs-dashboard
-   ```
+```
+git clone https://github.com/ByronMike/nextjs-dashboard.git
+cd nextjs-dashboard
+```
 
 2. Install dependencies:
 
