@@ -18,8 +18,10 @@ export default function EditInvoiceForm({
   invoice: InvoiceForm;
   customers: CustomerField[];
 }) {
-  // It is not possible to pass the id as an argument like so.
+  // It is not possible to pass the id as an argument.
   // Instead, pass the id to the Server Action using JS bind. This will ensure that any values passed to the Server Action are encoded.
+  // ChatGPT : By using bind, you ensure that whenever updateInvoiceWithId is called, the first argument (invoice.id) is automatically passed in, and the caller only needs to provide any additional arguments.
+  // NextJs Doc : You can bind arguments to a Server Action using the bind method. This allows you to create a new Server Action with some arguments already bound. This is beneficial when you want to pass extra arguments to a Server Action."
   const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
 
   return (
