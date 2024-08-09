@@ -38,6 +38,6 @@ Ensure your local development server is running with pnpm run dev and navigate t
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
 
-5. Use the following credentials
-   Email: user@nextmail.com
-   Password: 123456
+5. Use the following credentials to login into the App
+   - email: user@nextmail.com
+   - password: 123456
