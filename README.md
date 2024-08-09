@@ -37,3 +37,7 @@ Inside of /app, there's a folder called seed. This folder contains a Next.js Rou
 Ensure your local development server is running with pnpm run dev and navigate to localhost:3000/seed in your browser. When finished, you will see a message "Database seeded successfully" in the browser. Once completed, you can delete this file.
 
 For more information, see the [course curriculum](https://nextjs.org/learn) on the Next.js Website.
+
+5. Use the following credentials
+   Email: user@nextmail.com
+   Password: 123456
